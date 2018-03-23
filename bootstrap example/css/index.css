@@ -1,0 +1,228 @@
+*{
+	font-family:serif;
+	padding: 0px;
+	margin: 0px
+}
+
+.header{
+	background-image: url("../image/moon.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.head-overlay{
+	background-color: rgba(100,100,100,0.25);
+}
+
+.logo img{
+	height:150px;
+	width:150px;
+}
+
+.logo{
+	padding:20px; 
+	padding-top:45px;
+}
+
+.col3 img{
+	width:100%;
+	padding:20px;
+}
+
+.col2{
+	color: white;
+	text-transform: uppercase;
+}
+
+.htext h1{
+	padding:20px;
+	font-size: 45px;
+	line-height: 45px;
+	font-weight:300;
+}
+
+.hbtn{
+	padding:10px;
+}
+
+ .btn-download{
+	 margin:10px;
+	 font-weight: 400;
+	 font-size: 20px;
+	 border:2px solid #007bff;
+	 
+}
+
+.btn-tour{
+	margin:10px;
+	font-weight: 400;
+	font-size: 20px;
+	color:#a9adb0;
+	border:2px solid #a9adb0;
+	
+}
+
+.btn-download:active,.btn-download:hover{
+	background:transparent;
+	background-color: #129cf3;
+	color:#fff;
+	transition:all 1s;
+}
+
+.btn-tour:active,.btn-tour:hover{
+	background:transparent;
+	background-color: #a9adb0;
+	color:#fff;
+	transition:all 1s;
+}
+
+.btn i{
+	padding-left:5px;
+}
+
+/*---------------section-----------*/
+
+.section-title h2{
+	text-transform: uppercase;
+	position: relative;
+	padding:15px;
+	font-size: 40px;
+	line-height: 45px;
+	font-weight:510;
+}
+
+.section-title h2:before{
+	content:"";
+	border:1px solid #129cf3;
+	position:absolute;
+	bottom:10px;
+	width:100px;
+	height:1px;
+}
+
+.section-title p{
+	font-size: 20px;
+	line-height: 25px;
+	font-weight:300;
+}
+
+.about-img img{
+	width:100%
+}
+
+.section-title{
+	padding-top:30px;
+	padding-bottom:30px; 
+	
+}
+
+.btn-contact{
+	border-radius: 15px;
+	margin:10px;
+	font-weight: 400;
+	font-size: 20px;
+	border:2px solid #007bff;
+}
+
+.btn-contact:active,.btn-contact:hover{
+	background:transparent;
+	background-color: #129cf3;
+	color:#fff;
+	transition:all 1s;
+}
+
+.col5{
+	padding-left:100px;
+}
+
+.heading h2{
+	text-transform: uppercase;
+	position: relative;
+	padding:15px;
+	font-size: 35px;
+	line-height: 40px;
+	font-weight:510;
+}
+
+.heading h2:before{
+	content:"";
+	border:1px solid #129cf3;
+	position:absolute;
+	bottom:10px;
+	width:100px;
+	height:1px;
+}
+
+.teach,.bandc,.con,.tanda{
+	padding-top:20px;
+	padding-left:80px;
+	padding-bottom:20px; 
+	position:relative;
+}
+.teach p,.bandc p,.con p,.tanda p{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight:300;
+}
+
+.teach img,.bandc img,.con img,.tanda img{
+	position:absolute;
+	top:30px;
+	left:0px;
+	height:60px;
+	width:60px;
+}
+
+
+.teach h3,.bandc h3,.con h3,.tanda h3{
+	font-size:30px;
+	position:relative;
+}
+
+.teach h3:before,.bandc h3:before,.con h3:before,.tanda h3:before{
+	position:absolute;
+	content:"";
+	border:1px solid #129cf3;
+	bottom:-6px;
+	width:100px;
+	height:1px;
+}
+
+/*---------------patrons---------------*/
+.patrons{
+	background-image: url("../image/universe.jpg");
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.patrons-overlay{
+	background-color: rgba(100,100,100,0.4);
+}
+
+.patron{
+	width:300px;
+	height:400px;
+	margin:20px;
+	border:3px solid #129cf3;
+	border-radius: 50%;
+}
+
+.caption{
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+.caption h2,.caption h4{
+	color:#d8d8d8
+}
+
+.caption h4 span{
+	color:#129ddd;
+}
+
+.carousel-indicators{
+	bottom:-6px;
+}
