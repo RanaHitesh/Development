@@ -1,2 +1,1 @@
-# Development
-Web
+Building a website using Bootstrap.
